@@ -476,6 +476,15 @@ html,body{
   background-size: cover;
 }
 
+.ri-menu-3-fill{
+  display: none;
+  color: #222;
+  font-size: 20px;
+  position: absolute;
+  right: 5%;
+}
+
+
 /* ********************* RESPONSIVE SECTION ******************** */
 
 @media (max-width: 900px){
@@ -503,6 +512,10 @@ html,body{
 
   #btmslider{
     display: none;
+  }
+
+  .ri-menu-3-fill{
+    display: initial;
   }
 
 }
@@ -538,6 +551,9 @@ html,body{
     display: none;
   }
 
+  .ri-menu-3-fill{
+    display: initial;
+  }
 }
  
       
